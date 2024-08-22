@@ -5,10 +5,10 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("Digite a 1a: ");
-    double nota_1 = scanner.nextInt();
+    double nota_1 = scanner.nextDouble();
 
     System.out.println("Digite a 2a: ");
-    double nota_2 = scanner.nextInt();
+    double nota_2 = scanner.nextDouble();
 
     double media = (nota_1 + nota_2) / 2;
 
